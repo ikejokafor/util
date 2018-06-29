@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ikenna/SOC_IT/util/inc/util.hpp
+time.h
+-
+
+/home/ikenna/SOC_IT/util/src/util.cpp
+util.hpp
+/home/ikenna/SOC_IT/util/src/util.hpp
+
