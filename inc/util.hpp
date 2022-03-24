@@ -18,3 +18,6 @@
 // clock_gettime(CLOCK_MONOTONIC, &finish);
 // elapsedTime = diff(start, finish); // units in seconds
 // float diff(timespec start, timespec end);
+
+
+// uint32_t nextPow2(uint32_t v);
